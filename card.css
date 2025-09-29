@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;   
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: orange;
+    transform: scale(1.05);
+}

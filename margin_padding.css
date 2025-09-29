@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    background-color: yellow;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card h1{
+    margin-bottom: 15px;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: orange;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

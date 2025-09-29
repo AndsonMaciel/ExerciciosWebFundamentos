@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    margin: 20px auto;
+}
+
+li{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.item1{
+    background-color: #c5c5c5;
+}
+
+.item2{
+    background-color: #dbdbdb;
+}
+
+.item3{
+    background-color: #ececec;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,25 @@
+ul{
+    padding: 0;
+    margin: auto;
+    width: 200px;
+}
+
+li{
+    list-style-type: none;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+a:hover{
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
