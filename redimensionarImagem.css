@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.img1{
+    width: 400px;
+}
+
+.img2{
+    width: 200px;
+}
+
+.img3{
+    width: 100px;
+}
+
+.img1, .img2, .img3 {
+    border: 2px solid #000074;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.img1:hover, .img2:hover, .img3:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}

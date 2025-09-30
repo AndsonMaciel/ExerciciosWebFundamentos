@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+.galeria {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+.galeria img {
+      width: 150px;
+      border-radius: 10px;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
